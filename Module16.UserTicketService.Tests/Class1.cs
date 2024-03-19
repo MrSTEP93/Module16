@@ -9,7 +9,7 @@ namespace Module16.UserTicketService.Tests
         [Test]
         public void Test1()
         {
-            Assert.True(100 == 100);
+            Assert.True(100 <= 100);
         }
     }
 }
