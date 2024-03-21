@@ -9,6 +9,7 @@ namespace Module16.UserTicketService
     public class TicketPrice
     {
         ITicketService ticketService;
+
         public TicketPrice(ITicketService ticketService)
         {
             this.ticketService = ticketService;
