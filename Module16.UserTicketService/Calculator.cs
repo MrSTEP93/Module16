@@ -14,9 +14,19 @@ namespace Module16.UserTicketService
             return a + b;
         }
 
+        public int Add(int a, int b, int c)
+        {
+            return a + b + c;
+        }
+
         public int Multiplication (int a, int b)
         { 
             return a * b; 
+        }
+
+        public int Multiplication(int a, int b, int c)
+        {
+            return a * b * c;
         }
 
         public int Subtraction(int a, int b)

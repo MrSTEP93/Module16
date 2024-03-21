@@ -53,5 +53,21 @@ namespace Module16.UserTicketService.Tests
             var calc = new Calculator();
             Assert.That(calc.Add(10, 220), Is.EqualTo(230));
         }
+
+        [Test]
+        public void AdditionalMustReturnCorrectValue()
+        {
+            var calculator = new Calculator();
+            int result = calculator.Add(50, 10, 34);
+            Assert.AreEqual(94, result);
+        }
+
+        [Test]
+        public void MultiplicationMustReturnCorrectValue()
+        {
+            var calculator = new Calculator();
+            int result = calculator.Multiplication(3, 2, 20);
+            Assert.AreEqual(120, result);
+        }
     }
 }
